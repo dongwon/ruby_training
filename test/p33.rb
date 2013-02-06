@@ -7,6 +7,16 @@ class Song
   def to_s
     "Song: #@name--#@artist (#@duration)"
   end
+  
+  def name
+    @name
+  end
+  def artist
+    @artist
+  end
+  def duration
+    @duration
+  end
 end
 
 class KaraokeSong < Song
@@ -19,8 +29,12 @@ class KaraokeSong < Song
   end
 end
 
-song = KaraokeSong.new("bicylops","Fleck",260,"and now, the ...")
-puts song.inspect()   #like a tostring
-puts song.to_s()
+#song = KaraokeSong.new("bicylops","Fleck",260,"and now, the ...")
+song = Song.new("bicylops","Fleck",260)
+puts song.name()
+puts song.artist()
+puts song.duration()
+#puts song.inspect()   #like a tostring
+#puts song.to_s()
 
 
