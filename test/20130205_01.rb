@@ -57,10 +57,10 @@
 #a = %w{gemi bee cat dog elk}
 #a.each{|animal| puts animal}
 
-#['cat', 'dog', 'horse'].each {|name| print name, " "}
-#5.times {print "*"}
-#3.upto(6) {|i| print i}
-#('a'..'e').each {|char| print char}
+['cat', 'dog', 'horse'].each {|name| print name, " "}
+5.times {print "*"}
+3.upto(6) {|i| print i}
+('a'..'e').each {|char| print char}
   
 
 

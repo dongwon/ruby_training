@@ -24,21 +24,25 @@
 #
 #puts mySection['첼로']
 
-count = 20
-tries = 3
+#count = 20
+#tries = 3
+#if count < 10
+#  puts "try again"
+#elsif tries == 3
+#  puts "you lose"
+#else
+#  puts "enter a number"
+#end
 
-if count < 10
-  puts "try again"
-elsif tries == 3
-  puts "you lose"
-else
-  puts "enter a number"
-end
+#while line = gets
+#  puts line.downcase
+#end
 
-
-while line = gets
-  puts line.downcase
-end
-
-
+person1 = "tim"
+person2 = person1
+person1[0] = 'j'
+puts person1 
+puts person2
+puts person1.object_id()
+puts person2.object_id()
 

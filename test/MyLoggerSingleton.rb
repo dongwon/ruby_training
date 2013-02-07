@@ -1,5 +1,5 @@
 class MyLogger
-  private_class_method :new           #???
+  private_class_method :new           #Change accessor from public to private concerning new method
   @@logger = nil
   def MyLogger.create
     @@logger = new unless @@logger    #???
